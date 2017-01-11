@@ -2530,3 +2530,13 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/eefc6d2a-6af0-4792-965e-144bec20b62e 200 2700 ms - 76 
+[Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
+[Appium] Non-default server args:
+[Appium]   port: 5500
+[Appium]   bootstrapPort: 5051
+[Appium]   udid: '090c25240222810f'
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"090c25240222810f"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: '090c25240222810f'
+[Appium] Appium REST http interface listener started on 0.0.0.0:5500
