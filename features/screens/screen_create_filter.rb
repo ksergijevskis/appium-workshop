@@ -11,7 +11,7 @@ class ScreenCreateFilter < ScreenBase
   end
 
   def select_row(category_name)
-    @driver.find_elements(@rows[:type], @rows[:value]).each do |row|
+    @rows.each do |row|
       if row.text == category_name
         row.click
         break
